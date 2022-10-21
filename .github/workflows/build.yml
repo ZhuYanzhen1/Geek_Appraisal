@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Task1
-      run: gcc task1/main.c -o task1
+      run: gcc task1/main.c -o build_task1
     - name: Test
-      run: ./task1
+      run: ./build_task1
       
