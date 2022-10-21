@@ -13,14 +13,9 @@
 
 #### 任务要求
 &nbsp;&nbsp;&nbsp;&nbsp;运用C语言，使用上述的任意一种方法，实现对下述简单微分方程的各个瞬时值与最终定态求解：
-$$
-\left\{
-\begin{align}
-&y'+y=0\\
-&y(0)=a
-\end{align}
-\right.
-$$
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![1](https://latex.codecogs.com/svg.latex?\\left\\{\\begin{matrix}y'&plus;y=0&space;\\\\y(0)=a\\end{matrix}\\right.)
+
 注：a为常数，可由用户输入确定该值。你可以使用scanf()函数来获取输入的a值。瞬时值求解时步长为0.001，定态误差应小于0.001。
 
 #### 学习资料
