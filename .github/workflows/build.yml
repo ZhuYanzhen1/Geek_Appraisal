@@ -1,0 +1,18 @@
+name: CMake
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build Task1
+      run: gcc task1/main.c -o build_task1
+    - name: Test
+      run: ./build_task1
+      
