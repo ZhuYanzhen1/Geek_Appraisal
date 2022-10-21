@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;计算机求解微分方程的数值解有多种方法，常用的有Euler法、梯形法、改进Euler法、Taylor级数法、Runge-Kutta法、线性多步法等。他们具有不同的精度和稳定性。
 
 #### 任务要求
-&nbsp;&nbsp;&nbsp;&nbsp;运用C语言，使用上述的任意一种方法，实现对下述简单微分方程的各个瞬时值与最终定态求解：
+&nbsp;&nbsp;&nbsp;&nbsp;运用C语言，使用上述的任意一种方法，实现对下述简单微分方程的各个瞬时值与最终定态（收敛值）求解：
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![1](https://latex.codecogs.com/svg.latex?\\left\\{\\begin{matrix}y'&plus;y=0&space;\\\\y(0)=a\\end{matrix}\\right.)
 
