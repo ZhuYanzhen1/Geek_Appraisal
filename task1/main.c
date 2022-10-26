@@ -2,12 +2,8 @@
 
 int main()
 {
-	double a = 0,x=0,y=0,t=0;
-	float h = 0;
-		printf("«Î ‰»Îa=");
-		scanf("%lf",&a);
-		printf("«Î ‰»Îh=");
-		scanf("%f", &h);
+	double a = 1,x=0,y=0,t=0;
+	float h = 0.1;
 		y = a*(1-h);
 		t = a - y;
 		printf("x=%lf,y=%lf\n", x, y);
