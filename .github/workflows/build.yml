@@ -22,4 +22,4 @@ jobs:
     - name: Build Task2
       run: gcc task2/main.c -I task2/ -lm -o build_task2
     - name: Test
-      run: ./build_task2
+      run: echo -n AABBBCDDDEEEEEEADSGDUW | ./build_task2

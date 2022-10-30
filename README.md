@@ -39,10 +39,15 @@
 
 #### 任务要求
 
-&nbsp;&nbsp;&nbsp;&nbsp;对一串给定的英文字符串（只含有ASCII码）进行各个单词的出现频率统计，并根据词频构造哈夫曼树。权值低放左节点，权值高放右节点，并且左节点编码0，右节点编码1，最终将该字符串压缩成一个长度更短的二进制串。
+&nbsp;&nbsp;&nbsp;&nbsp;对一串给定的英文字符串（只含有ASCII码）进行各个字母的出现频率统计，并根据词频构造哈夫曼树。权值低放左节点，权值高放右节点，并且左节点编码0，右节点编码1，最终将该字符串压缩成一个长度更短的二进制串。
 
 #### 学习资料
 
 + [数据压缩与哈夫曼编码](https://www.bilibili.com/video/BV1dE411Z7Zw/?spm_id_from=333.337.search-card.all.click&vd_source=eed252f33e7aee5137cb946b2562f583)
 + [哈夫曼编码](https://blog.csdn.net/qq_19887221/article/details/125322754)
 + [哈夫曼树与哈夫曼编码](https://www.bilibili.com/video/BV1hK4y1k7Wr/?spm_id_from=333.337.search-card.all.click)
+
+***
+
+### 任务三
+#### 任务背景
