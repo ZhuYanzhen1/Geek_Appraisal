@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Task1
-      run: gcc task1/main.c -o build_task1
+      run: gcc task1/main.c -lm -o build_task1
     - name: Test
       run: echo -n 2 |  ./build_task1
   task2:
@@ -20,6 +20,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Task2
-      run: gcc task2/main.c -I task2/ -o build_task2
+      run: gcc task2/main.c -I task2/ -lm -o build_task2
     - name: Test
-      run: ./build_task2
+      run: echo -n AABBBCDDDEEEEEEADSGDUW | ./build_task2
