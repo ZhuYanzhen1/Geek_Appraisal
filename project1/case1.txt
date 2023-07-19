@@ -1,0 +1,36 @@
+DieSize 4 5
+
+NumInstances 8
+Inst C1
+Inst C2
+Inst C3
+Inst C4
+Inst C5
+Inst C6
+Inst C7
+Inst C8
+
+NumNets 6
+Net N1 2
+Pin C1
+Pin C2
+Pin C2
+Net N2 3
+Pin C2
+Pin C3
+Pin C7
+Net N3 2
+Pin C2
+Pin C8
+Net N4 3
+Pin C3
+Pin C6
+Pin C7
+Net N5 3
+Pin C4
+Pin C6
+Pin C5
+Net N6 2
+Pin C4
+Pin C5
+

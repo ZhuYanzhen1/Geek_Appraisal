@@ -1,0 +1,21 @@
+DieSize 3 3
+
+NumInstances 4
+Inst C1
+Inst C2
+Inst C3
+Inst C4
+
+NumNets 3
+Net N1 3
+Pin C1
+Pin C2
+Pin C3
+Net N2 3
+Pin C1
+Pin C2
+Pin C3
+Net N3 2
+Pin C1
+Pin C4
+
